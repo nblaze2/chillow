@@ -1,8 +1,6 @@
 require 'spec_helper'
 
 describe Appartment do
-  let(:mr_stark) {Occupant.new('Tony', 'Stark')}
-  let(:the_donald) {Occupant.new('Donald', 'Trump')}
   let(:appartment) {Appartment.new('200 Park Avenue', 'Manhattan', '10166', 100000, '11/10/16', '05/04/18')}
 
   it "has an street address" do
